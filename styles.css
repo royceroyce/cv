@@ -1,0 +1,112 @@
+/* fonts
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Quicksand', sans-serif;
+pallettes: #072227 #35858B #4FBDBA #AEFEFF or
+        rgb(7, 34, 39)
+        rgb(53, 133, 139)
+        rgb(79, 189, 186)
+        rgb(174, 254, 255)
+*/
+*{
+    margin: 0;
+    padding: 0;
+    transition: color 0.25s ease;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #072227;
+    height: 200vh;
+}
+#top-section {
+    position: relative;
+}
+
+#div-section {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 200px);
+    background: #4FBDBA;
+}
+
+#div-section .curve {
+    position: absolute;
+    bottom: -200px;
+    height: 200px;
+    width: 100%;
+    transform-origin: top;
+}
+
+#div-section .curve .curve-img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Content on top, Name, Desc */
+.top-content{
+    font-size: 2rem;
+    left: 30%;
+    top:10%;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+}
+
+.top-desc {
+    font-weight: 300;
+}
+
+.top-buttons {
+    padding-bottom: 3rem;
+}
+
+/* Contact Contents */
+#contact-section {
+    padding-top: 2rem;
+    position:relative;
+    top: 50%;
+    height: 500px;
+    z-index: 1;
+    color: #4FBDBA;
+}
+.contact-title {
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+}
+.contact-contents {
+    padding-left: 10%;
+}
+
+.icon-img {
+    font-size: 2rem;
+    float: left;
+    padding-right: 2%;
+}
+.contact-details {
+    padding: 1rem 0;
+    font-size: 1%;
+}
+.contact-contents a{
+    text-decoration: none;
+    color: #4FBDBA;
+}
+
+.contact-details:hover {
+    color: #AEFEFF;
+}
+.contact-contents a:hover{
+    color: #AEFEFF;
+}
+.resume-title {
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.contact-details h3{
+    font-size: 1.5rem;
+}
+
+
+
